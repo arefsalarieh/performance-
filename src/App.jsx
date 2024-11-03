@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Layout/Layout'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import MemoPage from './pages/memo/memoPage'
+import UseCallbackPaige from './pages/useCallbackPaige/useCallbackPaige'
 
 const router = createBrowserRouter([
   {
@@ -16,8 +17,12 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <MemoPage />,
+      },    
+      {
+        path: '/UseCallbackPaige',
+        element: <UseCallbackPaige />,
       },
-
+      
     ]
   }
 ])

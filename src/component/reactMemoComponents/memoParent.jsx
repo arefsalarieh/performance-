@@ -9,7 +9,7 @@ const MemoParent = () => {
   return (
     <div>
       <h1 className="font-bold text-xl text-center mt-10">
-        simple component with two children with memoization
+        simple parent with two children with memoization
       </h1>
       <p className="px-32 text-center mt-2">
         On this page you can see the new behavior of two child components. that
