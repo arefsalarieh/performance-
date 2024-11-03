@@ -3,9 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Home from './component/Home/Home'
+
 import Layout from './Layout/Layout'
 import { QueryClient, QueryClientProvider } from 'react-query'
+import MemoPage from './pages/memo/memoPage'
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
     children:[
       {
         path: '/',
-        element: <Home />,
+        element: <MemoPage />,
       },
 
     ]
