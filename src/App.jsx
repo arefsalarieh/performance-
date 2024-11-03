@@ -8,6 +8,7 @@ import Layout from './Layout/Layout'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import MemoPage from './pages/memo/memoPage'
 import UseCallbackPaige from './pages/useCallbackPaige/useCallbackPaige'
+import UseMemoPage from './pages/useMemoPage/useMemoPage'
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
         path: '/UseCallbackPaige',
         element: <UseCallbackPaige />,
       },
+      {
+        path: '/UseMemoPage',
+        element: <UseMemoPage />,
+      },      
       
     ]
   }
